@@ -1,0 +1,97 @@
+.contenido{
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(146, 145, 145, 0.7);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(146, 145, 145, 0.7);
+    box-shadow: 0px 0px 10px 1px rgba(146, 145, 145, 0.7);
+    margin-top: 100px !important;
+    background-color: #FFF;
+    z-index: 1;
+}
+.header-j{
+    background-color: #464646;
+}
+.cotizaciontitulo-j{
+    color:#59b2d5;
+    text-align: center;
+    font-size: 38px;
+    text-align: center;
+}
+.resultadotitulo-j{
+    color:#8b8e8f;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+}
+.recuperar{
+    color:#59b2d5;
+}
+.fondo{
+    width: 100%;
+    background-color: #36aadd;
+    z-index: 0;
+}
+.btn-cotizar{
+    background-color: #b1d560;
+    color: #FFF;
+}
+.lbl-j{
+    color: #8b8e8f;
+}
+.parrafo{
+    display: inherit;
+}
+.parrafo p{
+    text-align: center;
+}
+/* Extra small devices (phones, 580px and down) */
+@media only screen and (max-width: 580px) {
+    .fondo{
+        height: 10px;
+        position: absolute;
+        top: 100px;
+    }
+    .contenido{
+        margin-top:0px;
+    }
+    
+    .formulario{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .lbl-j{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .fondo{
+        height: 200px;
+        position: absolute;
+        top: 200px;
+    }
+    .contenido{
+        min-width: 550px !important;
+        padding: 20px;
+    }
+
+    .formulario{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #marcas{
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .fondo{
+        height: 200px;
+        position: absolute;
+        top: 200px;
+    }
+    #marcas{
+        width: 50%;
+    }
+} 
+

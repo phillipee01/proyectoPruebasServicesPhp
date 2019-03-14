@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Prueba Service PHP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body>
+        <header class="header-j text-center"><img  src="img/Logo.png" alt="Imagen Header"></header>
+        <main>
+            <div class="fondo"></div>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row aling-center">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-4 contenido">
+                                <form method="POST">
+                                    <div class="row text-center parrafo">
+                                        <p class="cotizaciontitulo-j">Cotiza tu Seguro Automotriz</p>
+                                    </div>
+                                    <div class="row text-center parrafo">
+                                        <p class="resultadotitulo-j">¡Resultados Instantáneos!</p>
+                                    </div>
+                                    <div class="row formulario">
+                                        <div class="form-group">
+                                            <label for="marcas" class="lbl-j">Marca del auto</label>
+                                            <select id="marcas" name="marcas" class="form-control" placeholder="Marca del auto" required>
+                                                <option value="">Seleccione...</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="modelos" class="lbl-j">Modelo del auto</label>
+                                            <select id="modelos" name="modelos" class="form-control" placeholder="Modelo del auto" required>
+                                                <option value="">Seleccione...</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="ano" class="lbl-j">Año</label>
+                                            <select id="ano" name="ano" class="form-control" placeholder="Ano" required>
+                                                <option value="">Seleccione...</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="lbl-j">Email</label>
+                                            <input type="text" id="email" name="email" class="form-control" placeholder="Email" required/>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center">
+                                            <input type="button" value="Cotizar" class="btn btn-cotizar col-sm-12"/>
+                                    </div>
+                                    <div class="row text-center parrafo recuperar">
+                                        <p>Recuperar Cotización</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
